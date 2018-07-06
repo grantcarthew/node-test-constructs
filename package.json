@@ -1,0 +1,23 @@
+{
+  "name": "test-constructs",
+  "version": "1.0.0",
+  "description": "JavaScript objects and arrays for testing purposes.",
+  "main": "index.js",
+  "homepage": "https://github.com/grantcarthew/node-test-constructs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grantcarthew/node-test-constructs.git"
+  },
+  "bugs": "https://github.com/grantcarthew/node-test-constructs/issues",
+  "keywords": [
+    "test",
+    "data",
+    "constructs"
+  ],
+  "author": "Grant Carthew",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
