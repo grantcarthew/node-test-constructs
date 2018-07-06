@@ -16,9 +16,9 @@ npm install --save-dev test-constructs
 
 const tc = require('test-constructs')
 
-console.log(tc.rndObject) // <= A random object
-console.log(tc.rndString) // <= A random string
-console.log(tc.rndJson) // <= A random JSON string
+console.log(tc.rndObject()) // <= A random object
+console.log(tc.rndString()) // <= A random string
+console.log(tc.rndJson()) // <= A random JSON string
 console.log(tc.arrays.strings) // <= An array of strings
 console.log(tc.arrays.types) // <= An array of JavaScript types
 console.log(tc.objects.asArray) // <= An array of objects
@@ -41,18 +41,18 @@ After writing test data for [console-probe](https://github.com/grantcarthew/node
 
 The best option to understand what you get from `test-constructs` is to look through the [source code](/src).
 
-### `rndObject`
+### `rndObject()`
 
 Returns randomly one of the objects available under `objects.asArray`.
 
 _Does not include the special objects._
 
-### `rndString`
+### `rndString()`
 
 Returns randomly one of the strings available under `arrays.strings`.
 
 
-### `rndJson`
+### `rndJson()`
 
 Returns randomly one of the JSON strings available under `json.asArray`.
 
